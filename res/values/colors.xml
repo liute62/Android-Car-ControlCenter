@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#ffffff</color>
+    <color name="Royalblue">#4161e1</color>
+    <color name="Black">#000000</color>
+    <color name="Lightgray">#d3d3d3</color>
+    <color name="Gainsboro">#dcdcdc</color>
+    <color name="AccentBlue">#ff366c96</color>
+    <color name="Blue">#ff33b5e5</color>
+    <color name="Green">#8FCC85</color> 
+    <color name="Lemonchiffon">#FFFACD</color>
+    <!-- 柠檬绸色 -->
+    <color name="Cornsilk">#FFF8DC</color>
+    <!-- 白杏色 -->
+    <color name="Mistyrose">#FFE4E1</color>
+    <!-- 浅玫瑰色 -->
+    <color name="Bisque">#FFE4C4</color>
+    <!-- 暗肉色 -->
+    <color name="Lavender">#E6E6FA</color>
+    <!-- 淡紫色 -->
+    <color name="Lightcyan">#E0FFFF</color>
+    <!-- 亮青色 -->
+    <color name="Burlywood">#DEB887</color>
+     <!-- 茶色 -->
+    <color name="Chocolate">#D2691E</color>
+    <!-- 巧可力色 -->
+    <color name="Peru">#CD853F</color>
+    <!-- 秘鲁色 -->
+    <color name="Indianred">#CD5C5C</color>
+    <!-- 暗紫罗兰色 -->
+    <color name="Mediumpurple">#9370DB</color>
+    <!-- 中紫色 -->
+    <color name="Lightgreen">#90EE90</color>
+    <!-- 亮绿色 -->
+    <color name="Darkseagreen">#8FBC8F</color>
+    <!-- 暗海兰色 -->
+    <color name="Saddlebrown">#8B4513</color>
+    <!-- 重褐色 -->
+    <color name="Darkmagenta">#8B008B</color>
+    <!-- 暗洋红 -->
+    <color name="Darkred">#8B0000</color>
+    
+    <color name="transparent">#00000000</color>
+    
+    
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="loading_dialog_bg">#77000000</color>
+</resources>

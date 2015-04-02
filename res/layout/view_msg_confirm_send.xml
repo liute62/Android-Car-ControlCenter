@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/msg_confirm_content_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#000"
+       android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:text="我正在开车，稍后给您回电"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/msg_relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="125dp"
+        
+        android:background="@drawable/main_purple_radius" >
+
+        
+    </RelativeLayout>
+    <TextView 
+        android:id="@+id/msg_confirm_hint_text"
+        android:text="确认发送？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"/>
+    <RelativeLayout 
+        android:id="@+id/msg_confirm_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        >
+        <Button 
+            android:id="@+id/msg_confirm_send_btn"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/msg_send_icon"
+            />
+        <Button 
+            android:id="@+id/msg_cancel_btn"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/phone_hang_up_icon"
+            android:layout_marginLeft="240dp"/>
+        
+    </RelativeLayout>
+    
+    </RelativeLayout>

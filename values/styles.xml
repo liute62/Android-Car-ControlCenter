@@ -1,0 +1,59 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="main_center_icon_underline">
+        <item name="android:layout_width">100dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/underline</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <style name="AppWidget">
+        <item name="dial">@drawable/clock_bg</item>
+        <item name="hand_hour">@drawable/clock_shi_zhen</item>
+        <item name="hand_minute">@drawable/clock_fen_zhen</item>
+        <item name="hand_second">@drawable/clock_miao_zhen</item>
+        
+    </style>
+    
+     <style name="IncomingTop" parent="@android:style/Animation">  
+    <item name="android:windowEnterAnimation">@anim/incoming_in</item>  
+    <item name="android:windowExitAnimation">@anim/incoming_out</item>  
+    </style> 
+    
+    <style name="IncomingMsg" parent="android:style/Theme.Translucent" mce_bogus="1">  
+    <item name="android:windowAnimationStyle">@style/IncomingTop</item>  
+    <item name="android:windowFrame">@null</item>  
+;!-- 边框 --> 
+    <item name="android:windowIsTranslucent">true</item>  
+;!-- 半透明 -->  
+    <item name="android:windowNoTitle">true</item>  
+;!-- 无标题 -->  
+    <item name="android:windowBackground">@android:color/transparent</item>  
+;!-- 背景透明 -->  
+    <item name="android:backgroundDimEnabled">true</item> 
+    <item name="android:layout_gravity">top</item> 
+;!-- 模糊 -->  
+</style>  
+    
+    
+    
+</resources>

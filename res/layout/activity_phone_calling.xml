@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+   
+    <RelativeLayout
+        android:id="@+id/phone_calling_profile"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/phone_contact_2" />
+
+    <TextView
+        android:id="@+id/phone_calling_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_calling_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="王斌"
+        android:textSize="32sp" 
+        android:textColor="#AFDEFF"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/num1"
+        android:layout_marginTop="225dp" >
+
+        <Button
+            android:id="@+id/phone_voice_min"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            
+            android:background="@drawable/music_voice_bar_min" />
+
+         <Button
+             android:id="@+id/phone_voice_max"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="40dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/music_voice_bar_max" />
+
+         <RelativeLayout
+             android:id="@+id/phone_calling_voice"
+             android:layout_width="650dp"
+             android:layout_height="30dp"
+             android:layout_below="@+id/phone_voice_num"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/phone_voice_bar" >
+         </RelativeLayout>
+
+         <TextView
+             android:id="@+id/phone_voice_num"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/phone_voice_max"
+             android:layout_centerHorizontal="true"
+             android:text="6"
+             android:textColor="#AFDEFF"
+             android:textSize="40sp" />
+
+    </RelativeLayout>
+
+     <Button
+         android:id="@+id/phone_hang_up_btn"
+         android:layout_width="165dp"
+         android:layout_height="165dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="50dp"
+         android:background="@drawable/phone_hang_up_icon" />
+
+    
+     
+     <TextView
+         android:id="@+id/num1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/phone_calling_contact"
+         android:layout_marginLeft="300dp"
+         android:layout_marginTop="80dp"
+         android:text="00"
+         android:textColor="#ffffff"
+         android:textSize="48sp" />
+     <TextView
+         android:id="@+id/num2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/phone_calling_contact"
+         android:layout_marginLeft="410dp"
+         android:layout_marginTop="80dp"
+         android:text="00"
+         android:textColor="#ffffff"
+         android:textSize="48sp" />
+
+     <TextView
+         android:id="@+id/phone_calling_dial"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/num1"
+         android:layout_alignBottom="@+id/num1"
+         android:layout_centerHorizontal="true"
+         android:text="拨号中..."
+         android:textSize="68sp" />
+
+</RelativeLayout>

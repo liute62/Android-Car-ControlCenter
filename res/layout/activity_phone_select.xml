@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/Black">
+
+    <RelativeLayout
+        android:id="@+id/phone_select_mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="750dip" >
+
+        <RelativeLayout
+            android:id="@+id/phone_select_layout2"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="150dip"
+            android:background="@drawable/phone_select_onhover" >
+
+            <ImageView
+                android:id="@+id/phone_select_hover"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/phone_select_msg_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/phone_select_layout1"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dip"
+            android:background="@drawable/phone_select_onhover" >
+
+            <ImageView
+                android:id="@+id/phone_select_dial"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/phone_select_phone_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/phone_select_layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_select_layout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="107dp" >
+
+            <ImageView
+                android:id="@+id/phone_select_cancle"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginBottom="96dp"
+                android:src="@drawable/msg_phone_cancel_icon" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#000000"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/msg_send_ok_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/msg_send_success"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/msg_edit_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="#000"
+       android:layout_marginBottom="25dp"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/msg_relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="125dp"
+        
+        android:background="@drawable/main_purple_radius" >
+
+        <FrameLayout
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/msg_middle_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                
+                android:background="@drawable/msg_finish_icon" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/msg_rela_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_relativeLayout1"
+        android:layout_centerHorizontal="true">
+        
+        <TextView 
+            
+            android:id="@+id/msg_title"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="常用"
+            android:textColor="#fff"
+             android:textSize="30sp"/>
+        <ImageView 
+            android:id="@+id/msg_title_below"
+            android:layout_below="@+id/msg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/radio_control_bar"/>
+        
+    </RelativeLayout>
+    
+    <ListView
+       
+        android:id="@+id/msg_common_list"
+         android:layout_below="@+id/msg_rela_layout"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+       
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scrollbars="none"
+        android:divider="#000"
+         >
+    </ListView>
+    
+    <Button 
+        android:id="@+id/msg_send_btn"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/msg_common_list"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/msg_send_icon"/>
+    
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="#000"
+            android:keyTextSize="35sp"
+            android:layout_marginBottom="50dp"
+            android:keyBackground="@drawable/btn_keyboard_key" 
+            android:keyTextColor="#595959"
+            android:visibility="gone" />
+    </RelativeLayout>
+    </RelativeLayout>

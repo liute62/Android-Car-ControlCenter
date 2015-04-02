@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            
+            android:layout_marginTop="125dp"
+            android:background="@drawable/main_purple_radius" >
+
+          <FrameLayout
+                android:layout_width="120dip"
+                android:layout_height="120dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <Button 
+                    android:id="@+id/phone_middle_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                   
+                    android:background="@drawable/msg_finish_icon"/>
+
+</FrameLayout>
+</RelativeLayout>
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="300dp">
+
+         <Button
+             android:id="@+id/no_two"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/phone_panel_bg"
+              />
+
+         <Button
+             android:id="@+id/no_three"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="25dp"
+             android:layout_toRightOf="@+id/no_two"
+             android:background="@drawable/phone_panel_bg"/>
+
+         <Button
+             android:id="@+id/no_one"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="25dp"
+             android:layout_toLeftOf="@+id/no_two"
+             android:background="@drawable/phone_panel_bg"
+             />
+
+          <TextView
+              android:id="@+id/num_no_three"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="48dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="178dp"
+              android:text="3"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_one"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="1"
+              android:layout_marginLeft="195dp"
+              android:layout_marginTop="48dp"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_two"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:text="2"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+        
+    </RelativeLayout>
+
+     <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="490dp">
+
+         <Button
+             android:id="@+id/no_five"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/phone_panel_bg"/>
+
+         <Button
+             android:id="@+id/no_six"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="25dp"
+             android:layout_toRightOf="@+id/no_five"
+             android:background="@drawable/phone_panel_bg" />
+
+         <Button
+             android:id="@+id/no_four"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="25dp"
+             android:layout_toLeftOf="@+id/no_five"
+             android:background="@drawable/phone_panel_bg"/>
+         
+         <TextView
+              android:id="@+id/num_no_six"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="48dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="179dp"
+              android:text="6"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_four"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="4"
+              android:layout_marginLeft="182dp"
+              android:layout_marginTop="48dp"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_five"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:text="5"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+         
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="685dp">
+
+         <Button
+             android:id="@+id/no_eight"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/phone_panel_bg"/>
+
+         <Button
+             android:id="@+id/no_nine"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="25dp"
+             android:layout_toRightOf="@+id/no_eight"
+             android:background="@drawable/phone_panel_bg" />
+
+         <Button
+             android:id="@+id/no_seven"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="25dp"
+             android:layout_toLeftOf="@+id/no_eight"
+             android:background="@drawable/phone_panel_bg"/>
+         
+         <TextView
+              android:id="@+id/num_no_nine"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="48dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="179dp"
+              android:text="9"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_seven"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="7"
+              android:layout_marginLeft="182dp"
+              android:layout_marginTop="48dp"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+
+          <TextView
+              android:id="@+id/num_no_eight"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:text="8"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+         
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="875dp">
+          <Button
+             android:id="@+id/no_zero"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/phone_panel_bg"/>
+          <TextView
+              android:id="@+id/num_no_zero"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:text="0"
+              android:textColor="#ffffff"
+              android:textSize="60sp" />
+           <Button
+             android:id="@+id/dial_back"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="25dp"
+             android:layout_toRightOf="@+id/no_zero"
+             android:background="@drawable/phone_dial_back" />
+        
+          </RelativeLayout>
+          <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="1000dp">
+           <Button
+             android:id="@+id/phone_dial_out_btn"
+             android:layout_width="165dp"
+             android:layout_height="165dp"
+             android:layout_marginBottom="50dp"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/phone_dial_out_icon"/>
+           </RelativeLayout>
+     
+    <TextView
+        android:id="@+id/dial_num"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+</RelativeLayout>

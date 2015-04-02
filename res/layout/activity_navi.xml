@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="750dip" >
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/navi_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="80dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/navi_search" />
+
+    <RelativeLayout
+        android:id="@+id/navi_main_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navi_map_dark" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navi_search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" >
+
+        <TextView
+            android:id="@+id/local_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四平路，靠近大连西路"
+            android:textColor="#fff" 
+            android:textSize="30sp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/navi_static_pic"
+            android:layout_width="241dip"
+            android:layout_height="141dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dip"
+            android:background="@drawable/turnright" >
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/local_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="目前位置"
+        android:textSize="30sp"
+        android:textColor="#A6A6A6" />
+
+</RelativeLayout>

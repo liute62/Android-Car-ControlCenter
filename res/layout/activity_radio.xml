@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <Button 
+        android:id="@+id/istoplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1017"
+        android:layout_marginLeft="200dp"
+        android:textColor="#fff"/>
+   
+ 
+
+    <RelativeLayout
+        android:id="@+id/radio_album_bg"
+        android:layout_width="match_parent"
+        android:layout_height="350dip"
+        android:background="@color/Black" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:background="@drawable/radio_bg" >
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/radio_ctr_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip" 
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/radio__pre"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/music_control_slide1_pre" />
+
+            <RelativeLayout
+                android:id="@+id/radio_progress"
+                android:layout_width="800dp"
+                android:layout_height="100dip"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/radio_next"
+                android:layout_toRightOf="@+id/radio__pre" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="800dp"
+                    android:layout_height="55dip"
+                    android:layout_centerInParent="true"
+                android:background="@drawable/music_control_slide1" />
+
+                <Button
+                android:id="@+id/radioSwitch"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/music_play_icon"
+                 android:layout_centerHorizontal="true" />
+                
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/radio_next"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/music_control_slide1_next" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            
+            android:layout_above="@+id/radio_ctr_layout"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/radio_num_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="87.9"
+                android:layout_centerInParent="true"
+                android:textColor="@color/White"
+                android:textSize="60sp" />
+
+           
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/Black"
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:layout_below="@+id/radio_album_bg" >
+
+        <RelativeLayout
+            android:id="@+id/radio_center_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" 
+            android:layout_marginTop="70dp">
+
+            <Button
+                android:id="@+id/radio_voice_min"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/music_voice_bar_min" />
+
+            <RelativeLayout
+                android:id="@+id/radio_voice_bar"
+                android:layout_width="550dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/music_voice_bar" >
+            </RelativeLayout>
+            
+           
+
+            <Button
+                android:id="@+id/radio_voice_max"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/volumn_raise" 
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dip" 
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_radio_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radio_center_layout"
+            android:layout_centerHorizontal="true"
+ 			android:layout_marginBottom="70dip"
+            android:text="6"
+            android:textColor="#AFDEFF"
+            android:textSize="27sp" />
+
+    </RelativeLayout> 
+    
+
+</RelativeLayout>

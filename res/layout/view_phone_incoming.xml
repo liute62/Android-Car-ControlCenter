@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+     <RelativeLayout
+        android:id="@+id/phone_incoming_profile"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/phone_contact_2" />
+     
+     <TextView
+        android:id="@+id/phone_incoming_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_incoming_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="王斌"
+        android:textSize="32sp" 
+        android:textColor="#AFDEFF"/>
+
+    <TextView
+        android:id="@+id/phone_incoming_contact_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_incoming_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="13127639391"
+        android:textSize="32sp" 
+        android:textColor="#AFDEFF"/>
+
+    
+    
+    <RelativeLayout 
+        android:id="@+id/phone_confirm_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        >
+        <Button 
+            android:id="@+id/phone_incoming_confirm_btn"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/phone_dial_out_icon"
+            />
+        <Button 
+            android:id="@+id/phone_incoming_reject_btn"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/phone_hang_up_icon"
+            android:layout_marginLeft="240dp"/>
+        
+    </RelativeLayout>
+    
+    </RelativeLayout>
